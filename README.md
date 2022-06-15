@@ -1,5 +1,5 @@
 # OPTIVAMEDIA Test Repository
-Repositorio de prueba para Optivamedia (1). Contiene el Source code para un proyecto personal de Unreal Engine 5.
+Repositorio de prueba para Optivamedia. Contiene el Source code para un proyecto personal de Unreal Engine 5.
 
 Se pretende programar dos mecánicas básicas:
 1. El personaje es controlado en el nivel por el jugador, capaz de realizar las acciones básicas de un plataformas de tercera persona (correr, saltar, trepar e interactuar con interruptores). La novedad reside en que estos en tres últimos se hace uso del paquete incluído en Unreal Engine 5 de "Motion Warping", el cual es útil para acompasar las animaciones con el target Transform del personaje.   
@@ -21,7 +21,7 @@ Este repositorio contiene el proyecto de Visual Studio estructurado en un único
 - UnreachableLevelSequenceActor.h/.cpp: Clase necesaria para implementar una funcionalidad adicional a ALevelSequenceActor. Esencialmente, mi idea es que antes de empezar una Level Sequence todos los actores se trasladen automáticamente a las posiciones iniciales de la secuencia (y así evitar que se teletransporten de repente). Probablemente hay formas mejores de hacer esto, pero en su momento esta fue la única solución que se me ocurrió.
 - UnreachableFunctionLibrary.h/.cpp: Clase que me sirve para implementar funciones (casi todas operaciones matemáticas) de una forma más directa, y así me ahorro el hacerlo en blueprints.
 
-<p><img src="Unreachable_Gif1.gif" title="title" margin-left="auto" /></p>
+<p style="text-align:center;"><img src="Unreachable_Gif1.gif" title="title" margin-left="auto" /></p>
 
 <i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
