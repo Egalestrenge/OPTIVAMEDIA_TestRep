@@ -27,7 +27,9 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 
 <i>Demostración de cómo reacciona en tiempo real cada parte del  personaje ante la presencia/ausencia de luz.</i>
 
-<picture><center><img src="Unreachable_Gif1.gif" width="500px;"></center></picture>
+<p align="center">
+  <img src="Unreachable_Gif1.gif">
+</p>
 
 <i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
