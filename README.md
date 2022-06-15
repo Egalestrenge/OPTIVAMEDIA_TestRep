@@ -21,7 +21,9 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 - UnreachableLevelSequenceActor.h/.cpp: Clase necesaria para implementar una funcionalidad adicional a ALevelSequenceActor. Esencialmente, mi idea es que antes de empezar una Level Sequence todos los actores se trasladen automáticamente a las posiciones iniciales de la secuencia (y así evitar que se teletransporten de repente). Probablemente hay formas mejores de hacer esto, pero en su momento esta fue la única solución que se me ocurrió.
 - UnreachableFunctionLibrary.h/.cpp: Clase que me sirve para implementar funciones (casi todas operaciones matemáticas) de una forma más directa, y así me ahorro el hacerlo en blueprints.
 
-<center><img src="Unreachable_Gif2.gif" width="500px;"></center>
+<p align="center">
+  <img width="460" height="300" src="Unreachable_Gif2.gif">
+</p>
 
 <i>Demostración de cómo reacciona en tiempo real cada parte del  personaje ante la presencia/ausencia de luz.</i>
 
@@ -30,3 +32,5 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 <i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
 <u>NOTA ADICIONAL</u>: Todos los modelos los he hecho Blender. Las animaciones de trepar y accionar interruptor están hechas por mí, y las animaciones de idle y correr están descargadas de Mixamo, con retarget y algunos ajustes hechos también en Blender.
+
+
