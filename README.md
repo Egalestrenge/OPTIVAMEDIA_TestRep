@@ -33,6 +33,6 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 
 <i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
-<p><u>NOTA ADICIONAL</u></p>: Todos los modelos los he hecho Blender. Las animaciones de trepar y accionar interruptor están hechas por mí, y las animaciones de idle y correr están descargadas de Mixamo, con retarget y algunos ajustes hechos también en Blender.
+NOTA ADICIONAL: Todos los modelos los he hecho Blender. Las animaciones de trepar y accionar interruptor están hechas por mí, y las animaciones de idle y correr están descargadas de Mixamo, con retarget y algunos ajustes hechos también en Blender.
 
 
