@@ -1,5 +1,5 @@
 # OPTIVAMEDIA Test Repository 1
-Repositorio de prueba para Optivamedia (1). Contiene el proyecto de Visual Studio para un proyecto personal de Unreal Engine 5.
+Repositorio de prueba para Optivamedia (1). Contiene el Source code para un proyecto personal de Unreal Engine 5.
 
 Se pretende programar dos mecánicas básicas:
 1. El personaje es controlado en el nivel por el jugador, capaz de realizar las acciones básicas de un plataformas de tercera persona (correr, saltar, trepar e interactuar con interruptores). La novedad reside en que estos en tres últimos se hace uso del paquete incluído en Unreal Engine 5 de "Motion Warping", el cual es útil para acompasar las animaciones con el target Transform del personaje.   
