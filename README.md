@@ -1,4 +1,4 @@
-# OPTIVAMEDIA Test Repositoryt 1
+# OPTIVAMEDIA Test Repository 1
 Repositorio de prueba para Optivamedia (1). Contiene el proyecto de visual studio para un proyecto personal de Unreal Engine 5.
 
 Se pretende programar dos mecánicas básicas:
