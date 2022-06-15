@@ -29,4 +29,4 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 
 <i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
-
+NOTA: Todos los modelos y animaciones que se ven en los gif han sido hechos por mi en Blender (menos la animación de correr, que está descargada de Mixamo) 
