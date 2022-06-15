@@ -12,7 +12,10 @@ Se pretende programar dos mecánicas básicas:
 
 Nótese que el último punto depende tanto de factores externos al personaje (distribución y propiedades de luces en el nivel) como de distintas propiedades del material que usa el personaje (a las cuales se pueden acceder desde un Material Parameter Collection). Además se pretende que el efecto sea realista, en el sentido de que si el personaje tiene cierta parte de su cuerpo iluminada, ésta aparecerá en su forma material, y si a la vez tiene otra parte de su cuerpo sin iluminar, ésta aparecerá en su forma espiritual. Esto hace que la transición entre estados no sea tan sencillo como usar Trigger Volumes, sino una fusión entre geometría, raycasts y cierta complicación a la hora de programar el shader del material del personaje.
 
-Este repositorio contiene el proyecto de Visual Studiol estructurado en un único módulo "Unreachable" con las clases necesarias. En particular:
+Este repositorio contiene el proyecto de Visual Studio estructurado en un único módulo "Unreachable" con las clases necesarias. En particular:
 
-- Unreachable.h/.cpp: Clase que te general unreal al iniciar el proyecto. No contiene nada adicional a lo que trae Unreal por defecto.
-- GeneralCharacter.h/.cpp: Clase que recoge la funcionalidad del personaje. 
+- Unreachable.h/.cpp: Clase que te general Unreal al crear el proyecto "Unreachable". No contiene nada adicional a lo que trae Unreal por defecto.
+- GeneralCharacter.h/.cpp: Clase que recoge la funcionalidad del personaje.
+- UnreachableLight.h/.cpp: Clase que recoge las propiedades necesarias para hacer los cáclulos de si el jugador tiene partes de su cuerpo iluminadas. 
+- UnreachableLightTrigger.h/cpp: No sirve de nada. Era una idea tonta que tuve para hacer triggers, pero al final opté por hacerlo con las componentes que traen los blueprints por defecto.
+- 
