@@ -19,4 +19,4 @@ Este repositorio contiene el proyecto de Visual Studio estructurado en un único
 - UnreachableLight.h/.cpp: Clase que recoge las propiedades necesarias para hacer los cáclulos de si el jugador tiene partes de su cuerpo iluminadas. 
 - UnreachableLightTrigger.h/cpp: No sirve de nada. Era una idea tonta que tuve para hacer triggers, pero al final opté por hacerlo con las componentes que traen los blueprints por defecto.
 - UnreachableLevelSequenceActor.h/.cpp: Clase necesaria para implementar una funcionalidad adicional a ALevelSequenceActor. Esencialmente, mi idea es que antes de empezar una Level Sequence todos los actores se trasladen a las posiciones iniciales de la secuencia (y así evitar que se teletransporten de repente). Probablemente hay formas mejores de hacer esto, pero en su momento esta fue la única solución que se me ocurrió.
-- 
+- UnreachableFunctionLibrary.h/.cpp: Clase que me sirve para implementar funciones (casi todas operaciones matemáticas) de una forma más directa, y así me ahorro el hacerlo en blueprints.
