@@ -15,7 +15,7 @@ Nótese que el último punto depende tanto de factores externos al personaje (di
 Este repositorio contiene el proyecto de Visual Studio estructurado en un único módulo "Unreachable" con las clases necesarias. En particular:
 
 - Unreachable.h/.cpp: Clase que te general Unreal al crear el proyecto "Unreachable". No contiene nada adicional a lo que trae Unreal por defecto.
-- GeneralCharacter.h/.cpp: Clase que recoge la funcionalidad del personaje.
+- GeneralCharacter.h/.cpp: Clase que recoge la funcionalidad del personaje. Aquí es donde está prácticamente toda la implementación del punto 2.
 - UnreachableLight.h/.cpp: Clase que recoge las propiedades necesarias para hacer los cáclulos de si el jugador tiene partes de su cuerpo iluminadas. 
 - UnreachableLightTrigger.h/cpp: No sirve de nada. Era una idea tonta que tuve para hacer triggers, pero al final opté por hacerlo con las componentes que traen los blueprints por defecto.
 - UnreachableLevelSequenceActor.h/.cpp: Clase necesaria para implementar una funcionalidad adicional a ALevelSequenceActor. Esencialmente, mi idea es que antes de empezar una Level Sequence todos los actores se trasladen a las posiciones iniciales de la secuencia (y así evitar que se teletransporten de repente). Probablemente hay formas mejores de hacer esto, pero en su momento esta fue la única solución que se me ocurrió.
