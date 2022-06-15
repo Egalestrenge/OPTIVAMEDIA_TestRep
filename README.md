@@ -1,4 +1,4 @@
-# OPTIVAMEDIA Test Repository 1
+# OPTIVAMEDIA Test Repository
 Repositorio de prueba para Optivamedia (1). Contiene el Source code para un proyecto personal de Unreal Engine 5.
 
 Se pretende programar dos mecánicas básicas:
@@ -22,6 +22,7 @@ Este repositorio contiene el proyecto de Visual Studio estructurado en un único
 - UnreachableFunctionLibrary.h/.cpp: Clase que me sirve para implementar funciones (casi todas operaciones matemáticas) de una forma más directa, y así me ahorro el hacerlo en blueprints.
 
 ![](Unreachable_Gif1.gif)
-<i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.
+
+<i>Pequeña demostración de un nivel jugable. El personaje tiene que abrirse paso por una puerta sin ser detectado por las barreras de seguridad, que están iluminadas.</i>
   
 
