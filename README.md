@@ -22,7 +22,7 @@ Este repositorio contiene el source code estructurado en un único módulo "Unre
 - UnreachableFunctionLibrary.h/.cpp: Clase que me sirve para implementar funciones (casi todas operaciones matemáticas) de una forma más directa, y así me ahorro el hacerlo en blueprints.
 
 <p align="center">
-  <img width="460" height="300" src="Unreachable_Gif2.gif">
+  <img src="Unreachable_Gif2.gif">
 </p>
 
 <i>Demostración de cómo reacciona en tiempo real cada parte del  personaje ante la presencia/ausencia de luz.</i>
