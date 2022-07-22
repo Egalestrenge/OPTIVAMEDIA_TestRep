@@ -1,7 +1,7 @@
 # UNREACHABLE by Manuel Cambon
 
 -- ENGLISH --
-This repository contains the source code for a personal Unreal Engine 5 project. 
+This repository contains the source code for a personal Unreal Engine 5 project I am working on. 
 
 The goal of this project is to program two basic mechanics:
 
