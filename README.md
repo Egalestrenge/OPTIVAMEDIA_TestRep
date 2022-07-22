@@ -4,7 +4,9 @@
 This repository contains the source code for a personal Unreal Engine 5 project. 
 
 The goal of this project is to program two basic mechanics:
+
 1). The main character is controlled by the player, and it is able to make basic actions typical of a 3rd person platformer (i.e., run, jump, climb and interact with switches). The project makes extensive use of the package "Motion Warping" included in the last version of UE5. 
+
 2). The main character, depending on the level environment, can have its body in two different states: material state and spirit state. The way the player is able to control the character depends on these two forms, where:
 
 - In the material state the character is able to make all the actions in 1). In the spirit state it is only able to walk and pass through small holes. 
