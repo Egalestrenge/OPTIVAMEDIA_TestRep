@@ -37,7 +37,7 @@ This repository contains the source code structured in one module named "Unreach
 
 <i>A playable level with some gameplay. The character has to go through the door without being spotted by the guard houses.</i>
   
-NOTE: All the models are have been made in Blender. The animations for climb and swtich actions are also done by me, while idle and run animations are from Mixamo, and retageted and modified in Blender for better adjustements.
+NOTE: All the models are have been made in Blender. The animations for climb and switch actions are also done by me, while idle and run animations are from Mixamo, and retageted and modified in Blender for better adjustements.
 
 -- ESPAÑOL --
 Repositorio de prueba para Optivamedia. Contiene el Source code para un proyecto personal de Unreal Engine 5.
