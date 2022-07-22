@@ -12,7 +12,7 @@ The goal of this project is to program two basic mechanics:
 - In the material state the character is able to make all the actions in 1). In the spirit state it is only able to walk and pass through small holes. 
 - In the material state the character has a black material, somewhat transparent, and emits some Niagara particles, almost like a black ghost.
 - In the spirit form the body is fully transparent. However, you can trace its position via a small ball of light the floats and emits Niagara particles, resembling its soul.
-- The change between material and spiritual form is defined by the configuration of the lights in the level. When the character is lit, it is in material form. When it is unlit, it is in spirit form.
+- The change between material and spiritl form is defined by the configuration of the lights in the level. When the character is lit, it is in material form. When it is unlit, it is in spirit form.
 
 Please note that this last point involves both external factors (this is, distribution and properties of the lights in the level) and material properties of the character material (which can be read from a Material Parameter Collection). Moreover, since different parts of the body can be lit while other parts unlit, the character can have parts in its material form (black) and other parts in the spirit form (transparent). This proposes an interesting problem that I tackled with some use of mathematics geometry, raycasts and somewhat compounded materials and niagara systems.   
 
